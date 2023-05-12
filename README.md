@@ -1,5 +1,6 @@
 # keepass-auto-open
 
+```
 & 'C:\Program Files\KeePass Password Safe 2\KeePass.ps1' -Password 'MY-DATABASE-PASSWORD'
 
 $shortcut = (New-Object -ComObject 'WScript.Shell').CreateShortcut("$env:USERPROFILE\Desktop\KeePass.lnk")
